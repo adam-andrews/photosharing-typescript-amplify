@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+amplify-authenticator {
+  --amplify-font-family: 'Oswald', serif !important;
+  --background-color:none;
+  --box-shadow:none;
+  }
+
+  :root{
+    --amplify-primary-color: red;
+    --amplify-primary-tint: red; 
+    --amplify-primary-shade: red;
+  }
