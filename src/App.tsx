@@ -13,7 +13,7 @@ import {
 } from '@aws-amplify/ui-react';
 
 import { AmplifyS3ImagePicker } from '@aws-amplify/ui-react';
-
+// Added Comment
 import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 Auth.configure({
